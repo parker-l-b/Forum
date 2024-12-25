@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('forum-production-913b.up.railway.app');
 
 const form = document.getElementById('chat-form');
 const input = document.getElementById('message-input');
